@@ -40,14 +40,15 @@ int main(void)
 	fillDeck(deck, face, suit); //   fill the deck with cards
 
 	printf_s("    ============        Original Deal       ==================    \n");
+	printf_s("\n");
 	deal(deck);//                    deal out all 52 cards
 	printf_s("\n");
+	//printf_s("    ==========================================================    \n");
 	printf_s("    ==========================================================    \n");
-
 	shuffle(deck);//                 put the cards in a random order
 	printf_s("\n");
 	printf_s("    ============        Shuffled Deal       ==================    \n");
-	
+	printf_s("\n");
 	deal(deck);//                    deal out all 52 cards
 	 
 	system("Pause");
